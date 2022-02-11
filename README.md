@@ -1,4 +1,4 @@
-# Juego-del-Ahoracado
+# Juego-del-Ahorcado
 Juego del Ahorcado para el challenge de Alura
 
 Reglas del desafio:

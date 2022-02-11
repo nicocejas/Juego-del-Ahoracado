@@ -5,6 +5,51 @@
      box-sizing: border-box;
 }
 
+main{
+    font-family: "Arial";
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
 #tablero {
     display:block;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #202085;
+    color: white;
+    padding: 12px 30px; 
+    margin: 5px;
+}
+
+input#palabra{
+    border-radius: 8px;
+    min-width: 250px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border: 2px solid lightgrey;
+}
+
+.invisible {
+    display: none;
 }
